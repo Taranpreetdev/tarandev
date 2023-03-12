@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-[#00a6ed]'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -107,7 +107,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>
+                    <label className='uppercase text-m py-2'>
                       Phone Number
                     </label>
                     <input
@@ -118,7 +118,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Email</label>
+                  <label className='uppercase text-m py-2'>Email</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
@@ -126,7 +126,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Subject</label>
+                  <label className='uppercase text-m py-2'>Subject</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
@@ -134,14 +134,14 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Message</label>
+                  <label className='uppercase text-m py-2'>Message</label>
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <button className='w-full p-4 text-blue mt-4 bg-blue-600 '>
                   Send Message
                 </button>
               </form>
@@ -153,7 +153,7 @@ const Contact = () => {
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
+                  className='text-[#00a6ed]'
                   size={30}
                 />
               </div>
