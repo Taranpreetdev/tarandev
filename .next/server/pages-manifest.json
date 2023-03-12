@@ -1,12 +1,6 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/crypto": "pages/crypto.html",
-  "/": "pages/index.html",
-  "/property": "pages/property.html",
-  "/netflix": "pages/netflix.html",
-  "/twitch": "pages/twitch.html",
-  "/resume": "pages/resume.html",
-  "/404": "pages/404.html"
+  "/_error": "pages/_error.js",
+  "/": "pages/index.js"
 }
